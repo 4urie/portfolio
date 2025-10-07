@@ -15,7 +15,7 @@ import work from '@/data/resume/work';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    "Aurie Nellas Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.",
+    'Aurie Nellas Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook.',
 };
 
 const sections = [

@@ -29,7 +29,7 @@ const data: Project[] = [
     desc:
       'A real-time messaging application built with Laravel framework. ' +
       'Features include instant messaging, user management, message history, and responsive design. ' +
-      'Implemented using Laravel\'s broadcasting capabilities and WebSocket technology. ' +
+      "Implemented using Laravel's broadcasting capabilities and WebSocket technology. " +
       'This project demonstrates my Laravel expertise and real-time communication implementation.',
   },
   {

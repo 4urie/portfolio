@@ -29,9 +29,10 @@ const SideBar: React.FC = () => {
         <h2>About</h2>
         <p>
           Hi, I&apos;m Aurie. I am a 3rd year{' '}
-          <a href="https://dnsc.edu.ph">BSIT student at Davao del Norte State College</a>, aspiring web developer specializing in{' '}
-          <a href="#">Laravel</a>, <a href="#">Django</a>, and{' '}
-          <a href="#">React</a>. I&apos;m passionate about coding, always practicing to improve my skills, and dream of working in the tech industry.
+          <a href="https://dnsc.edu.ph">BSIT student at Davao del Norte State College</a>, aspiring
+          web developer specializing in <a href="#">Laravel</a>, <a href="#">Django</a>, and{' '}
+          <a href="#">React</a>. I&apos;m passionate about coding, always practicing to improve my
+          skills, and dream of working in the tech industry.
         </p>
         <ul className="actions">
           <li>
