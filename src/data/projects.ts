@@ -9,47 +9,40 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Django-React-Oauth',
+    subtitle: 'Full-Stack Authentication System',
+    link: 'https://github.com/4urie/Django-React-Oauth',
+    image: '/images/projects/oauth.png',
+    date: '2024-10-01',
     desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
+      'A comprehensive authentication system built with Django backend and React frontend. ' +
+      'Implements OAuth integration for secure user authentication and authorization. ' +
+      'Features include user registration, login, token management, and protected routes. ' +
+      'This project showcases my full-stack development skills combining Django REST API with React.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Laravel Chatify',
+    subtitle: 'Real-time Chat Application',
+    link: 'https://github.com/4urie/laravel-chatify',
+    image: '/images/projects/1.png',
+    date: '2024-08-15',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+      'A real-time messaging application built with Laravel framework. ' +
+      'Features include instant messaging, user management, message history, and responsive design. ' +
+      'Implemented using Laravel\'s broadcasting capabilities and WebSocket technology. ' +
+      'This project demonstrates my Laravel expertise and real-time communication implementation.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Laravel POS System',
+    subtitle: 'Point of Sale Management System',
+    link: 'https://github.com/4urie/laravel-pos',
+    image: '/images/projects/pos.png',
+    date: '2024-06-20',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
+      'A comprehensive Point of Sale system built with Laravel for small to medium businesses. ' +
+      'Features include inventory management, sales tracking, customer management, and reporting. ' +
+      'Implements role-based access control, transaction processing, and data analytics dashboard. ' +
+      'This project showcases my ability to build complex business applications with Laravel.',
   },
 ];
 

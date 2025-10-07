@@ -11,7 +11,7 @@
     "node": ">=20.x"
   },
   "scripts": {
-    "dev": "TURBOPACK=1 next dev --turbopack",
+    "dev": "set TURBOPACK=1 && next dev --turbopack",
     "dev:webpack": "next dev",
     "build": "next build",
     "build:turbo": "TURBOPACK=1 next build --turbopack",
@@ -62,7 +62,8 @@
     "jest-environment-jsdom": "^30.1.2",
     "postcss-normalize": "^13.0.1",
     "prettier": "^3.6.2",
-    "sass": "^1.92.1",
+    "sass": "^1.77.0",
+    "sass-loader": "^14.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },

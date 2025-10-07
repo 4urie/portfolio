@@ -10,7 +10,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: "Contact Michael D'Angelo via email @ hi@mldangelo.com",
+  description: "Contact Aurie Nellas via email @ nellas.aurie@dnsc.edu.ph",
 };
 
 export default function ContactPage() {
@@ -20,7 +20,7 @@ export default function ContactPage() {
         <header>
           <div className="title">
             <h2>
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">Contaact</Link>
             </h2>
           </div>
         </header>

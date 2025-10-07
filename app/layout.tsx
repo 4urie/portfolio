@@ -23,35 +23,37 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: 'Aurie Nellas',
+    template: '%s | Aurie Nellas',
   },
   description:
-    "Michael D'Angelo's personal website. Data scientist, machine learning engineer, and full-stack developer.",
+    "Aurie Nellas' personal website. BSIT 3rd year student from Davao del Norte State College, aspiring web developer and tech enthusiast.",
   keywords: [
-    "Michael D'Angelo",
-    'data scientist',
-    'machine learning',
-    'full-stack developer',
-    'engineer',
+    'Aurie Nellas',
+    'BSIT student',
+    'web developer',
+    'Laravel',
+    'Django',
+    'React',
     'portfolio',
   ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
+  authors: [{ name: 'Aurie Nellas' }],
+  creator: 'Aurie Nellas',
   metadataBase: new URL('https://mldangelo.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://mldangelo.com',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
-    description: 'Data scientist, machine learning engineer, and full-stack developer.',
+    siteName: 'Aurie Nellas',
+    title: 'Aurie Nellas',
+    description:
+      'BSIT 3rd year student from Davao del Norte State College, aspiring web developer and tech enthusiast.',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: 'Aurie Nellas',
       },
     ],
   },
