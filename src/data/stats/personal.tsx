@@ -6,20 +6,27 @@ import { StatData } from '../../components/Stats/types';
 
 const Age: React.FC = () => {
   const [age, setAge] = useState<string>('');
+  const [isClient, setIsClient] = useState(false);
 
   const tick = () => {
-    const divisor = 1000 * 60 * 60 * 24 * 365.2421897; 
-    const birthTime = new Date('2005-02-06T00:00:00'); 
+    const divisor = 1000 * 60 * 60 * 24 * 365.2421897;
+    const birthTime = new Date('2005-02-06T00:00:00');
     setAge(((Date.now() - birthTime.getTime()) / divisor).toFixed(11));
   };
 
   useEffect(() => {
+    setIsClient(true);
     tick(); // Initial tick
     const timer = setInterval(() => tick(), 25);
     return () => {
       clearInterval(timer);
     };
   }, []);
+
+  // Prevent hydration mismatch by only showing dynamic content on client
+  if (!isClient) {
+    return <>19.67</>;
+  }
 
   return <>{age}</>;
 };
