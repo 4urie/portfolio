@@ -1,6 +1,6 @@
 export const aboutMarkdown = `# Intro
 
-Hi! I'm Aurie Nellas, a 19-year-old BSIT 3rd year student from Davao del Norte State College. I'm passionate about technology and aspiring to work in the tech industry, whether it's in networking, web development, or data. I'm currently learning various technologies including React, Laravel, Django, and Arduino programming.
+Hi! I'm Aurie Nellas, a 20-year-old BSIT 3rd year student from Davao del Norte State College. I'm passionate about technology and aspiring to work in the tech industry, whether it's in networking, web development, or data. I'm currently learning various technologies including React, Laravel, Django, and Arduino programming.
 
 I love coding and I'm always practicing to improve my skills. My goal is to land a job in the tech industry where I can apply my knowledge and continue growing as a developer.
 
