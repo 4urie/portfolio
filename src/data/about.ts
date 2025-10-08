@@ -16,7 +16,7 @@ I love coding and I'm always practicing to improve my skills. My goal is to land
 
 # I Like
 
-- Playing [Dota 2](https://www.dota2.com/) - my favorite online game
+- Playing [Dota 2] - my favorite online game
 - Watching anime movies and series
 - Riding my bike around the neighborhood
 - Coding and practicing programming challenges
