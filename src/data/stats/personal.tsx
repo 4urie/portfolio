@@ -17,7 +17,8 @@ const Age: React.FC = () => {
   useEffect(() => {
     setIsClient(true);
     tick(); // Initial tick
-    const timer = setInterval(() => tick(), 25);
+    // update once per second to reduce churn and chances of mismatch
+    const timer = setInterval(() => tick(), 1000);
     return () => {
       clearInterval(timer);
     };
@@ -25,10 +26,10 @@ const Age: React.FC = () => {
 
   // Prevent hydration mismatch by only showing dynamic content on client
   if (!isClient) {
-    return <>19.67</>;
+    return <span suppressHydrationWarning>19.67</span>;
   }
 
-  return <>{age}</>;
+  return <span suppressHydrationWarning>{age}</span>;
 };
 
 const data: StatData[] = [
