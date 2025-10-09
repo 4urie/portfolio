@@ -16,8 +16,8 @@ const Age: React.FC = () => {
 
   useEffect(() => {
     setIsClient(true);
-    tick(); // Initial tick
-    // update once per second to reduce churn and chances of mismatch
+    tick(); 
+   
     const timer = setInterval(() => tick(), 1000);
     return () => {
       clearInterval(timer);
