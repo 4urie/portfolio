@@ -7,7 +7,7 @@ I love coding and I'm always practicing to improve my skills. My goal is to land
 # My Journey
 
 - Born on February 6, 2005, and grew up with a passion for technology and problem-solving.
-- During Grade 12, I faced some personal challenges that broke me down, but I used this experience to grow stronger and more determined.
+- During Grade 12, I faced some personal challenges that broke me down lol, but I used this experience to grow stronger and more determined.
 - Currently pursuing a Bachelor of Science in Information Technology (BSIT) as a 3rd year student at Davao del Norte State College.
 - Earned my NC 2 CSS certification in 2023, demonstrating my commitment to web development standards.
 - Completed an OJT (On-the-Job Training) experience in my barangay as an encoder, which gave me real-world experience in data management and office work.
